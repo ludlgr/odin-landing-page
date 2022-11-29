@@ -4,6 +4,7 @@
 
 [] Project description
 [] Markdown formatting
+[] Format CSS after the webpage is complete
 
 ## Credits
 
