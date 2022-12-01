@@ -3,19 +3,22 @@ body {
     margin: 0;
 }
 
-.first-section {
-    background-color: #1F2937;
+.section {
     display: flex;
     justify-content: center;
 }
-.centerer-h {
-
+.centerer {
+    width: 1000px;
 }
+
+.first {
+    background-color: #1F2937;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
-    max-width: 1000px;
+    padding-top: 20px;
 }
 
 .logo {
@@ -50,10 +53,12 @@ body {
     padding: 5px 20px;
     color: #F9FAF8;
     font-weight: bold;
+    margin-right: auto;
 }
 
 .hero-section {
     display: flex;
+    padding: 100px 0;
 }
 
 .hero-section img {
@@ -62,4 +67,7 @@ body {
 
 .hero-text {
     max-width: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
