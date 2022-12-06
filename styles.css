@@ -48,11 +48,14 @@ body {
 
 .sign-up {
     background-color: #3882f6;
-    border: none;
     border-radius: 6px;
     padding: 5px 20px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.one {
+    border: none;
     margin-right: auto;
 }
 
@@ -133,4 +136,26 @@ body {
     display: flex;
     flex-direction: row-reverse;
     padding-right: 30px;
+}
+
+.prompt-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin: 100px 0;
+    padding: 50px 100px;
+    color: #F9FAF8;
+}
+
+.call-to-action {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.two {
+    border: #F9FAF8 solid 2px;
 }
