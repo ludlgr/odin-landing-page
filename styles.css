@@ -35,14 +35,14 @@ body {
 }
 
 .header-links,
-.hero-second {
+.hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .hero-main {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
     color: #F9FAF8;
 }
 
@@ -70,4 +70,41 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.random-info {
+    font-weight: 800;
+    font-size: 36px;
+    color: #1F2937
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    width: 180px;
+}
+
+.pancake-stack {
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.subtext {
+    text-align: center;
 }
