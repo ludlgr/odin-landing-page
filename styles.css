@@ -11,7 +11,8 @@ body {
     width: 1000px;
 }
 
-.first {
+.first,
+.footer {
     background-color: #1F2937;
 }
 
@@ -158,4 +159,9 @@ body {
 
 .two {
     border: #F9FAF8 solid 2px;
+}
+
+.footer {
+    color: #E5E7EB;
+    padding: 30px 0;
 }
