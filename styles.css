@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
 }
-.centerer {
+.first-centerer {
     width: 1000px;
 }
 
@@ -108,4 +108,29 @@ body {
 
 .subtext {
     text-align: center;
+}
+
+.third {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.third-centerer {
+    width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 30px;
 }
