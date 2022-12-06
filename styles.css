@@ -98,6 +98,7 @@ body {
     flex-direction: column;
     align-items: space-around;
     width: 180px;
+    gap: 5px;
 }
 
 .pancake-stack {
